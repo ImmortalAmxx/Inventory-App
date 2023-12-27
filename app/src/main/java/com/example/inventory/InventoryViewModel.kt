@@ -161,3 +161,5 @@ class InventoryViewModelFactory(private val itemDao: ItemDao) : ViewModelProvide
         throw IllegalArgumentException("Unknown ViewModel class")
     }
 }
+
+// For commit
